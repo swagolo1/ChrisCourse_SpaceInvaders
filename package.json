@@ -1,0 +1,20 @@
+{
+  "name": "chriscourse_spaceinvaders",
+  "version": "1.0.0",
+  "description": "info about this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/swagolo1/ChrisCourse_SpaceInvaders.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swagolo1/ChrisCourse_SpaceInvaders/issues"
+  },
+  "homepage": "https://github.com/swagolo1/ChrisCourse_SpaceInvaders#readme"
+}
