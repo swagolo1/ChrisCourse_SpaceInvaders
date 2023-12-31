@@ -27,21 +27,26 @@ class Player {
     draw(){
         // c.fillStyle = 'red'
         // c.fillRect(this.position.x, this.position.y, this.width, this.height)
-        if(this.image){
 
-            c.drawImage(this.image, this.position.x, this.position.y, this.width, this.height)
+        c.drawImage(this.image, this.position.x, this.position.y, this.width, this.height)
+        
+    }
+    update(){
+        if(this.image){
+            this.draw()
+            this.position.x += this.velocity.x
         }
     }
 }
 
 const player = new Player()
-player.draw()
+// player.draw()
 
 function animate(){
     requestAnimationFrame(animate)
     c.fillStyle = 'black'
     c.fillRect(0, 0, canvas.width, canvas.height)
-    player.draw()
+    player.update()
 }
 
 animate()
@@ -54,6 +59,9 @@ addEventListener( 'keydown', ({key})=> {
             break
         case 'd':
             console.log('right')
+            break
+        case ' ':
+            console.log('space')
             break
         
     }
