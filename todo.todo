@@ -2,11 +2,11 @@
 ~2. Create a player @done
 ~3. Move the player @done 
 ~4. Create projectiles @done
-5. Create an invader 
-6. Create and move grids of invaders 
-7. Spawn grids at intervals 
-8. Shoot invaders
-9. Invaders shoot back
+~5. Create an invader 
+~6. Create and move grids of invaders 
+~7. Spawn grids at intervals 
+~8. Shoot invaders
+~9. Invaders shoot back
 10. Enemy explosions 
 11. Create background stars 
 12. Lose condition
